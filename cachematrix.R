@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Takes the makeCacheMatrix as an input and solves for a mean
+## Takes the makeCacheMatrix as an input and solves for a Inverse of a 2x2 matrix
 ## If mean already exists, the mean is returned from cache
 
 cacheSolve <- function(x, ...) {

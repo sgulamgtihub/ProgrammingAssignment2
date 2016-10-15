@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ## Function takes a matrix as input
 ## Defines setting of values, getting cached values, by means of set, get, Inverse value of matrix 

@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Function takes a matrix as input
+## Defines setting of values, getting cached values, by means of set, get, Inverse value of matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -27,7 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Takes the makeCacheMatrix as an input and solves for a mean
+## If mean already exists, the mean is returned from cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
